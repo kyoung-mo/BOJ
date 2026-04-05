@@ -37,5 +37,5 @@ BOJ/
 
 ## 🔗 관련 링크
 
-[![Solved.ac](https://img.shields.io/badge/Solved.ac-프로필-000000?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAA&logoColor=white)](https://solved.ac/kyoung-mo)
+[![Solved.ac](https://img.shields.io/badge/Solved.ac-프로필-000000?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAA&logoColor=white)](https://solved.ac/profile/kym3466#)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/kyoung-mo)
