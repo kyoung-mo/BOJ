@@ -2,27 +2,22 @@
 
 int main()
 {
-    for(int k=0;k<3;k++)
-    {
-        long long result=0, value[3];
-        int amount, cnt=0;
+    int amount,cnt=0;
+        while(cnt++>3){
         scanf("%d",&amount);
+        long long input[amount];
+        int isplus[amount];
         for(int i=0;i<amount;i++)
         {
-            scanf("%d",value[i]);
-            if(value[i]>0) cnt++;
-            else if(value[i]<0) cnt--;
+            scanf("%d",input[i]);
+            if(input[amount]>0) isplus[amount]=1;
+            else if(input[amount]==0) isplus[amount]=0;
+            else if(input[amount]<0) isplus[amount]=-1;
         }
-        if(cnt>0) printf("+\n");
-        else if(cnt<0) printf("-\n");
-        else
+        for(int i=0;i<amount;i++)
         {
-            result=value[1]+value[2]+value[3];
-            if(result>0) printf("+\n");
-            else if(result<0) printf("-\n");
-            else printf("0\n");
+            
         }
-        
     }
     return 0;
 }
