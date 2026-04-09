@@ -1,10 +1,12 @@
+// 동적 할당으로 다시
+
 #include <stdio.h>
 int main(){
     int amount;
     scanf("%d",&amount);
 
-    char list[amount][51];
-    char result[51];
+    char list[amount][50];
+    char result[50];
     for(int i=0;i<amount;i++)
     {
         scanf("%s",list[i]);

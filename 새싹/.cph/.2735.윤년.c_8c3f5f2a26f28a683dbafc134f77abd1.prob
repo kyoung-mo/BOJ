@@ -1,0 +1,1 @@
+{"name":"Local: 2735","url":"/home/mo/BOJ/새싹/2735.윤년.c","tests":[{"id":1775735059002,"input":"2000","output":"1"},{"id":1775735061243,"input":"1999","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mo/BOJ/새싹/2735.윤년.c","group":"local","local":true}
