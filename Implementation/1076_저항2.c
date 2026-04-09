@@ -24,15 +24,14 @@ int main(){
     {
         if(!strcmp(color[i],bottom)) prt_zero(i,result);
     }
-    
+   
     
     return 0;
 }
 
 void prt_zero(int rep, int result){
     int square_result=1;
-    if(result==0){}
-    else if(rep==0){}
+    if(result==0 || rep==0){}
     else
     {
         for(int i=0;i<rep;i++)printf("0");
