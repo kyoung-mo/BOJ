@@ -1,1 +1,0 @@
-{"name":"Local: 10869_사칙연산","url":"/home/mo/BOJ/새싹/10869_사칙연산.c","tests":[{"id":1775738899346,"input":"7 3","output":"10\n4\n21\n2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mo/BOJ/새싹/10869_사칙연산.c","group":"local","local":true}
