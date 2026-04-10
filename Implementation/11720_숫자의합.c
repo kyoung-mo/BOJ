@@ -1,27 +1,22 @@
 #include <stdio.h>
-int cut(int repeat);
+int sq(int, int);
 int main()
 {
-    int cnt,num,result=0;
+    int cnt,init_num,num,result=0;
     scanf("%d",&cnt);
-    
-        scanf("%d",num);
+    scanf("%d",&init_num);
     for(int i=0;i<cnt;i++)
     {
-        result+=(num/(cut(cnt)));
-        num-=(num/(cut(cnt)));
+        num=init_num/sq(10,cnt-i-1);
+        result+=num;
+        init_num-=num*sq(10,cnt-i-1);
     }
     printf("%d",result);
     return 0;
 }
-int cut(int repeat)
+int sq(int a, int b)
 {
-    int result=10,cnt=1;
-    while(1)
-    {
-        if(cnt>=repeat) break;
-        result*=10;
-        cnt++;
-    }
+    int result=1;
+    for(int i=0;i<b;i++) result*=a;
     return result;
 }
