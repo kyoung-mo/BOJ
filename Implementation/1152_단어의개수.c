@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-
 int main()
 {
     char* str;
-    printf("strlen 
-    return 0;
+    int cnt=0;
+    scanf("%s",str);
+    printf("%s ",str);
+
+    return 0
 }

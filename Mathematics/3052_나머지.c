@@ -7,19 +7,27 @@ int main()
     {
         scanf("%d\n",&num[i]);
         num[i]%=42;
-        printf("%d\n",num[i]);
     }
     for(int i=0;i<9;i++)
     {
-        printf("i = %d \n",i);
-        for(int j=i+1;j<10;j++)
+        for(int j=0;j<9-i;j++)
         {
-            printf("j = %d \n",i);
-            
-            if(num[i]==num[j]) cnt--;
-            if(cnt<=0) break;       
+            int temp;
+            if(num[j]>num[j+1])
+            {
+                temp=num[j];
+                num[j]=num[j+1];
+                num[j+1]=temp;
+            }
         }
-        if(cnt<=10) break;
+    }
+    for(int i=0;i<9;i++)
+    {
+        if(num[i]==num[i+1])
+        {
+            cnt--;
+            continue;
+        }     
     }
     printf("%d",cnt);
     return 0;
