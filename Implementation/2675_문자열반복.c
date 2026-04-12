@@ -1,30 +1,29 @@
 #include <stdio.h>
 #include <string.h>
+
 int main()
 {
-    int t;
-    scanf("%d",&t);
-    for(int i=0;i<t;i++
+    int cnt,chk=0;
+    scanf("%d",&cnt);
+
+    while(1)
     {
-        int r,cnt=0;
+        int len;
         char* str;
-        scanf("%d %s",&r,str);
-        int len=strlen(str);
-        for(int j=0;j<len;j++)
+        str = (char*)malloc(sizeof(char));
+        scanf("%d %s",&len,str);
+        //printf("len : %d, str : %s\n",len, str);
+        for(int j=0;j<strlen(str);j++)
         {
-            for(int k=0;k<r;k++) 
+            for(int k=0;k<len;k++)
             {
                 printf("%c",str[j]);
-                cnt++;
-                if(cnt==r) 
-                {
-                    cnt=0;
-                    break;
-                }
             }
         }
         printf("\n");
-        
+        chk++;
+        if(chk>=cnt) break;
     }
+
     return 0;
 }
