@@ -6,7 +6,7 @@ int main()
     int cnt;
     scanf("%d",&cnt);
 
-    char str_arr[cnt][50]; // 이거 동적 할당을 어떻게 써줘야할지 모르겠음
+    char str_arr[cnt][50];
     for(int i=0;i<cnt;i++) scanf("%s",str_arr[i]);
     for(int i=0;i<cnt-1;i++)
     {
@@ -27,11 +27,12 @@ int main()
             }
         }
     }    
-    for(int i=0;i<cnt;i++)
+    printf("%s\n",str_arr[0]);
+    for(int i=0;i<cnt-1;i++)
     {
         if(strcmp(str_arr[i],str_arr[i+1])==0) continue;
-        printf("%s\n",str_arr[i]);
+        printf("%s\n",str_arr[i+1]);
     }
-    return 0
+    return 0;
 }
     
