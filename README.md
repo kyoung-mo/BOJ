@@ -1,6 +1,6 @@
 # 🧩 BOJ
 
-[![Solved.ac 프로필](https://mazassumnida.wtf/api/v2/generate_badge?boj=kym3466)](https://solved.ac/kym3466)
+[![solvedac badge](https://solvedac-readme-badge.vercel.app/api/v1/badge?user=kym3466)](https://solved.ac/kym3466)
 
 백준 온라인 저지 문제 풀이 저장소입니다.
 
